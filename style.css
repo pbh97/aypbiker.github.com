@@ -12,12 +12,25 @@
     background-color: #1B1464!important;
 }
 
-.principal {
-    background-image: url(https://i.pinimg.com/originals/47/f3/21/47f321144a66e5292779a40c94b09424.png);
-    background-repeat: no-repeat;
-    background-position: 87pt 85px;
+/* Imagen index html */
+@media (min-width: 992px) {
+    .principal {
+        background-image: url(FotosMotos/principal.png);
+        background-repeat: no-repeat;
+        background-position: -32% 87%;
+    }
 }
-
+@media (min-width: 1200px) {
+    .principal {
+        background-position: 10% 87%;
+    }
+}
+.principal {
+    margin-top: 10%;
+}
+.col-12 > h1 {
+    padding: 10% 0;
+}
 .nav-link > .svg-inline--fa {
     font-size: 18pt;
 }
@@ -26,7 +39,12 @@
     letter-spacing: 1pt;
     font-size: 18pt;
 }
-
+.foto-moto:hover {
+    filter: sepia(1);
+}
+.foto-moto {
+    transition-duration: 2s;
+}
 .b-0 {
     bottom: 0;
 }
