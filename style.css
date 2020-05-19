@@ -11,7 +11,18 @@
 .bg-primary, a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
     background-color: #1B1464!important;
 }
-
+.btn-outline-primary {
+    color: #1b1464;
+    border-color: #1b1464;
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    background-color: #1b1464;
+    border-color: #1b1464;
+}
+.btn-outline-primary:hover {
+    background-color: #1b1464;
+    border-color: #1b1464;
+}
 /* Imagen index html */
 @media (min-width: 992px) {
     .principal {

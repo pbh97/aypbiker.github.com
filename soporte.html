@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>A&P Bikers: Blog</title>
+        <title>A&P Bikers: Soporte</title>
         <link rel="shortcut icon" href="favicon.png" type="image/png">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,7 +35,7 @@
                         <a class="nav-link text-dark" href="index.html"><i class="fas fa-motorcycle"></i> <span class="d-none d-sm-inline-block d-md-inline-block">Inicio</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link bg-primary text-white" href="blog.html"><i class="fas fa-gas-pump"></i> <span class="d-none d-sm-inline-block d-md-inline-block">Blog</span></a>
+                        <a class="nav-link text-dark" href="blog.html"><i class="fas fa-gas-pump"></i> <span class="d-none d-sm-inline-block d-md-inline-block">Blog</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="galeria.html"><i class="fas fa-warehouse"></i> <span class="d-none d-sm-inline-block d-md-inline-block">Galeria</span></a>
@@ -44,44 +44,40 @@
                         <a class="nav-link text-dark" href="rutas.html"><i class="fas fa-map-signs"></i> <span class="d-none d-sm-inline-block d-md-inline-block">Rutas</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="soporte.html"><i class="fas fa-screwdriver"></i> <span class="d-none d-sm-inline-block d-md-inline-block">Soporte</span></a>
+                        <a class="nav-link bg-primary text-white" href="soporte.html"><i class="fas fa-screwdriver"></i> <span class="d-none d-sm-inline-block d-md-inline-block">Soporte</span></a>
                     </li>
                 </ul>
             </navbar>
         </div>
         <!-- Header Fin-->
-        <!-- Inicio-->
-
-
-
         <section class="container">
             <article class="row">
                 <div class="col-12">
                     <h1 class="text-center display-1">Blog</h1>
                 </div>
             </article>
-            <article class="row mb-5">
-                <div class="col-lg-12">
-                    <h1 class="display-4">Entrada al Blog</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis laoreet felis, ut sagittis risus commodo vel. In quis nibh malesuada dui laoreet tincidunt a eu orci. Sed varius sagittis urna eu molestie. Praesent sagittis ante ut enim pretium sodales. Donec libero libero, lacinia eget est in, blandit fringilla velit. Vestibulum eleifend, metus et dictum porttitor, erat turpis feugiat nisi, accumsan gravida risus ligula id lorem. Cras mi odio, congue quis nisi ac, ultrices aliquet est. Fusce semper diam vel tincidunt molestie. Fusce at diam in urna maximus efficitur.</p>
-                    <a href="entrada.html" class="btn btn-outline-primary">Leer Más</a>
-                </div>
-            </article>
-            <article class="row mb-5">
-                <div class="col-lg-12">
-                    <h1 class="display-4 ">Entrada al Blog</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis laoreet felis, ut sagittis risus commodo vel. In quis nibh malesuada dui laoreet tincidunt a eu orci. Sed varius sagittis urna eu molestie. Praesent sagittis ante ut enim pretium sodales. Donec libero libero, lacinia eget est in, blandit fringilla velit. Vestibulum eleifend, metus et dictum porttitor, erat turpis feugiat nisi, accumsan gravida risus ligula id lorem. Cras mi odio, congue quis nisi ac, ultrices aliquet est. Fusce semper diam vel tincidunt molestie. Fusce at diam in urna maximus efficitur.</p>
-                    <a href="entrada.html" class="btn btn-outline-primary">Leer Más</a>
-                </div>
-            </article>
-            <article class="row mb-5">
-                <div class="col-lg-12">
-                    <h1 class="display-4 ">Entrada al Blog</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis laoreet felis, ut sagittis risus commodo vel. In quis nibh malesuada dui laoreet tincidunt a eu orci. Sed varius sagittis urna eu molestie. Praesent sagittis ante ut enim pretium sodales. Donec libero libero, lacinia eget est in, blandit fringilla velit. Vestibulum eleifend, metus et dictum porttitor, erat turpis feugiat nisi, accumsan gravida risus ligula id lorem. Cras mi odio, congue quis nisi ac, ultrices aliquet est. Fusce semper diam vel tincidunt molestie. Fusce at diam in urna maximus efficitur.</p>
-                    <a href="entrada.html" class="btn btn-outline-primary">Leer Más</a>
+            <article class="row">
+                <div class="col-12">
+                    <form>
+                        <div class="form-group">
+                          <label for="email">Correo: *</label>
+                          <input type="email" required class="form-control" id="email" placeholder="Introducir Correo electronico">
+                          <small id="emailHelp" class="form-text text-muted">Nos pondremos en contacto por este correo electronico.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="nombre">Nombre:</label>
+                          <input type="text" required class="form-control" id="nombre" placeholder="Introduce tu nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="comentario">Consulta:</label>
+                            <textarea class="form-control" required id="comentario" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-outline-primary">Enviar</button>
+                      </form>
                 </div>
             </article>
         </section>
+
         <!-- Footer -->
         <footer class="bg-dark text-white">
             <div class="text-center py-3">© 2020 A&PBiker</div>
